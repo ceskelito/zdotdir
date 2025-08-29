@@ -32,3 +32,4 @@ zdharma-continuum/fast-syntax-highlighting  # Syntax highlighting
 zsh-users/zsh-autosuggestions               # Auto-suggestions
 zsh-users/zsh-history-substring-search      # Up/Down to search history
 aloxaf/fzf-tab
+ajeetdsouza/zoxide

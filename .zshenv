@@ -25,4 +25,4 @@ path=(
   $path
 )
 
-source $ZDOTDIR/.zshenv_private
+source $ZDOTDIR/.zshenv_secrets

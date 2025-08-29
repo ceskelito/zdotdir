@@ -22,4 +22,4 @@
 *.zwc.old
 .zplugins.zsh
 .zlocal
-.zshenv_private
+.zshenv_secrets

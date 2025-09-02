@@ -3,7 +3,9 @@
 # .zshrc - Zsh file loaded on interactive shell sessions.
 #
 
-####  Commented out for future delition
+fpath=($ZDOTDIR/.completions $fpath)
+autoload -Uz compinit
+compinit
 
 export STARSHIP_CONFIG=$ZDOTDIR/starship.toml
 

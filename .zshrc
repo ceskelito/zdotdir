@@ -6,7 +6,6 @@
 ####  Commented out for future delition
 
 export STARSHIP_CONFIG=$ZDOTDIR/starship.toml
-eval "$(starship init zsh)"
 
 # Lazy-load (autoload) Zsh function files from a directory.
 ZFUNCDIR=${ZDOTDIR:-$HOME}/.zfunctions
@@ -36,3 +35,5 @@ unset _rc
 
 ####  # To customize prompt, run `p10k configure` or edit .p10k.zsh.
 ####  [[ ! -f ${ZDOTDIR:-$HOME}/.p10k.zsh ]] || source ${ZDOTDIR:-$HOME}/.p10k.zsh
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"

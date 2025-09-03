@@ -25,4 +25,7 @@ path=(
   $path
 )
 
+# fzf configuration
+export FZF_DEFAULT_OPTS="--height 40% --layout reverse --border --preview 'cat {}'"
+
 source $ZDOTDIR/.zshenv_secrets
